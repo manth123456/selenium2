@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="fname" value="abcd"/>
+    <parameter name="st" value="maharastra"/>
+    <parameter name="tport" value="4"/>
+    <parameter name="ps" value="abcd##3"/>
+    <parameter name="cps" value="abcd##3"/>
+    <parameter name="cnt" value="INDIA"/>
+    <parameter name="em" value="abcde@gmail.com"/>
+    <parameter name="url" value="https://demo.guru99.com/test/newtours/register.php"/>
+    <parameter name="adr" value="sai nagar"/>
+    <parameter name="usn" value="ysfsy"/>
+    <parameter name="ct" value="nagpur"/>
+    <parameter name="lname" value="xyzz"/>
+    <parameter name="pc" value="45455"/>
+    <parameter name="tomonth" value="4"/>
+    <parameter name="clas" value="2"/>
+    <parameter name="fport" value="3"/>
+    <parameter name="phn" value="4544545"/>
+    <parameter name="today" value="7"/>
+    <parameter name="fmonth" value="4"/>
+    <parameter name="pcount" value="2"/>
+    <parameter name="fday" value="5"/>
+    <parameter name="us" value="abcde@gmail.com"/>
+    <classes>
+      <class name="mavenDemo11.RegiLoginFlightBook">
+        <methods>
+          <include name="URL"/>
+          <include name="openbrowser"/>
+          <include name="flightbook" invocation-numbers="0"/>
+          <include name="m3"/>
+        </methods>
+      </class> <!-- mavenDemo11.RegiLoginFlightBook -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

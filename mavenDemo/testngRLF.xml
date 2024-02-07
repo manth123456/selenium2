@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="url" value="https://demo.guru99.com/test/newtours/register.php"></parameter>
+  <parameter name="fname" value="abcd"></parameter>
+  <parameter name="lname" value="xyzz"></parameter>
+  <parameter name="phn" value="4544545"></parameter>
+  <parameter name="usn" value="ysfsy"></parameter>
+  <parameter name="adr" value="sai nagar"></parameter>
+  <parameter name="ct" value="nagpur"></parameter>
+  <parameter name="st" value="maharastra"></parameter>
+  <parameter name="pc" value="45455"></parameter>
+  <parameter name="cnt" value="INDIA"></parameter>
+  <parameter name="em" value="abcde@gmail.com"></parameter>
+  <parameter name="ps" value="abcd##3"></parameter>
+  <parameter name="cps" value="abcd##3"></parameter>
+  <parameter name="us" value="abcde@gmail.com"></parameter>
+  
+  <parameter name="ps" value="abcd##3"></parameter>
+  
+  <parameter name="pcount" value="2"></parameter>
+  
+  <parameter name="fport" value="3"></parameter>
+  <parameter name="fmonth" value="4"></parameter>
+  <parameter name="fday" value="5"></parameter>
+  
+  <parameter name="tport" value="4"></parameter>
+  <parameter name="tomonth" value="4"></parameter>
+  <parameter name="today" value="7"></parameter>
+  <parameter name="clas" value="2"></parameter>
+    <classes>
+      <class name="mavenDemo11.RegiLoginFlightBook">
+      <methods>
+      <include name="flightbook"></include> 
+         </methods>  
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
